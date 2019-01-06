@@ -1,0 +1,22 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="title" type="String"/>
+    </data>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorAccent">
+
+        <TextView
+                android:text="@{title}"
+                tools:text="Title"
+                android:gravity="center|start"
+                android:textSize="18sp"
+                android:textColor="#FFFFFFFF"
+                android:textStyle="bold"
+                android:paddingStart="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </FrameLayout>
+</layout>
